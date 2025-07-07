@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevLoom</title>
+  <link href="./dist/output.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100">
+
+  <div>
+
+  <!-- Full-width blue heading -->
+  <h1 class="bg-blue-500 text-white text-5xl font-bold text-center py-4 w-full">
+    DevLoom
+  </h1>
+
+  <!-- Navigation Bar -->
+<div class="overflow-x-auto whitespace-nowrap bg-blue-500">
+  <nav class="bg-blue-500 min-w-max mx-auto p-4 text-white">
+    <ul class="flex gap-4 px-4 py-2 bg-blue-500 text-white whitespace-nowrap overflow-x-auto justify-center">
+      <li><a href="#Home" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">Home</a></li>
+      <li><a href="#About" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">About</a></li>
+      <li><a href="#Learn" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">Resources</a></li>
+      <li><a href="#CourseDetails" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">Course Details</a></li>
+      <li><a href="#Plans" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">Plans</a></li>
+      <li><a href="#FAQ" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">FAQ</a></li>
+      <li><a href="#Contact" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">Contact</a></li>
+      <li><a href="#LoginSignupSection" class="px-3 py-1 rounded hover:bg-transparent active:bg-transparent focus:bg-transparent">Login</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+
+  <!-- Home Section -->
+ <section id="Home" class="A1_section relative bg-cover bg-center bg-no-repeat py-24 px-6 text-white" style="background-image: url('img.jpeg');">
+    
+    <!-- Overlay for darkening image -->
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+    <!-- Content on top of image -->
+    <div class="relative z-10 max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">
+        Structure Learning path <br />
+        become a <span class="text-blue-300">Front-End Web Developer</span>
+      </h2>
+      <p class="text-lg text-gray-200">
+        Learn HTML, CSS, and JavaScript through real-world projects. <br />
+        Build responsive websites step by step — perfect for beginners to advanced learners.
+      </p>
+    </div>
+    
+  </section>
+
+
+
+
+
+<!-- About Section -->
+
+  <!-- About Section -->
+  <section id="About" class="A2_Section py-16">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6 gap-10">
+
+      <!-- Left Side - Text -->
+      <div class="md:w-1/2 text-center md:text-left">
+        <h2 class="text-4xl font-bold mb-4">About Us</h2>
+        <p class="text-lg text-gray-700">
+          This platform is designed to empower aspiring front-end developers
+          through a structured, hands-on learning experience. From mastering the
+          fundamentals of HTML, CSS, and JavaScript to building responsive,
+          real-world projects, the course offers a clear path from beginner to
+          advanced. Whether you're starting your journey in tech or looking to
+          enhance your skills, this is the place to grow, build, and succeed.
+        </p>
+      </div>
+
+      <!-- Right Side - Background Image -->
+      <div class="md:w-1/2 h-80 w-full bg-cover bg-center rounded-lg shadow-lg" style="background-image: url('image2.jpg');">
+        <!-- Empty div used just for background image -->
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section id="Learn" class="A7_section py-16 bg-gray-50">
+  <div class="container mx-auto px-6 flex flex-col lg:flex-row gap-10">
+
+    <!-- Left: Learning Resources -->
+    <div class="lg:w-1/2 w-full bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-3xl font-bold mb-6 text-blue-600">Learning Resources</h2>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">HTML Basics - YouTube Video</h3>
+        <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" allowfullscreen class="w-full h-56 rounded-lg border"></iframe>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">CSS Flexbox Crash Course</h3>
+        <iframe src="https://www.youtube.com/embed/1Rs2ND1ryYc" allowfullscreen class="w-full h-56 rounded-lg border"></iframe>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">JavaScript Full Course</h3>
+        <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg" allowfullscreen class="w-full h-56 rounded-lg border"></iframe>
+      </div>
+    </div>
+
+    <!-- Right: Courses -->
+    <div class="lg:w-1/2 w-full bg-white shadow-md rounded-lg p-6">
+      <h2 class="text-3xl font-bold mb-6 text-blue-600">Courses</h2>
+
+      <!-- Step 1 -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Step 1: Introduction to Web Development</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>Understand how the web works</li>
+          <li>Difference between Front-End and Back-End</li>
+          <li>Setting up your tools (VS Code, browsers, extensions)</li>
+        </ul>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Step 2: Mastering HTML</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>HTML Elements, Tags, and Attributes</li>
+          <li>Forms, Tables, Lists, and Semantic HTML</li>
+          <li>Project: Build a basic web page</li>
+        </ul>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Step 3: Styling with CSS</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>CSS Basics, Selectors, Colors, Fonts</li>
+          <li>Box Model, Flexbox, Grid Layout</li>
+          <li>Responsive Design & Media Queries</li>
+          <li>Project: Create a responsive portfolio</li>
+        </ul>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Step 4: JavaScript Fundamentals</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>Variables, Functions, Loops, and Arrays</li>
+          <li>DOM Manipulation & Events</li>
+          <li>Project: Build an interactive To-Do App</li>
+        </ul>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold mb-2">Step 5: Real-World Web Projects</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>Landing Page Clone</li>
+          <li>Responsive Navigation Menus</li>
+          <li>Form Validation with JavaScript</li>
+        </ul>
+      </div>
+
+      <!-- Step 6 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Step 6: Final Project & Certification</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-1">
+          <li>Build your own complete website</li>
+          <li>Submit for review and feedback</li>
+          <li>Receive your certificate of completion</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="CourseDetails" class="A4_Section py-16 bg-white">
+  <div class="learn_wrapper max-w-3xl mx-auto px-6 bg-gray-100 p-8 rounded-lg shadow-md">
+    <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Course Details</h2>
+    <ul class="space-y-4 text-gray-800 text-lg">
+      <li>
+        <strong class="text-gray-900">Course Title:</strong> Front-End Web Development Bootcamp
+      </li>
+      <li>
+        <strong class="text-gray-900">Level:</strong> Beginner to advanced
+      </li>
+      <li>
+        <strong class="text-gray-900">Duration:</strong> 6 weeks (Self-paced)
+      </li>
+      <li>
+        <strong class="text-gray-900">Format:</strong> Online + Project-Based
+      </li>
+      <li>
+        <strong class="text-gray-900">Tools Covered:</strong> HTML, CSS, JavaScript, VS Code, GitHub
+      </li>
+      <li>
+        <strong class="text-gray-900">Key Features:</strong> Real-World Projects, Assignments, Quizzes, Certificate
+      </li>
+      <li>
+        <strong class="text-gray-900">Outcomes:</strong> Build Responsive websites and kickstart your developer journey
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
+<section id="Plans" class="A5_Section py-16 bg-blue-50">
+  <div class="container max-w-3xl mx-auto px-6 bg-white p-8 rounded-lg shadow-md text-center">
+    
+    <!-- Heading -->
+    <h2 class="text-3xl font-bold text-blue-600 mb-6">Choose Your Learning Plan</h2>
+
+    <!-- Plan List -->
+    <ul class="space-y-4 text-gray-800 text-lg mb-6 text-left">
+      <li>
+        <strong class="text-gray-900">Free Plan:</strong> Basic Tutorial, no certificate
+      </li>
+      <li>
+        <strong class="text-gray-900">Pro Plan:</strong> Full Course access, real Projects, certificate, and support
+      </li>
+    </ul>
+
+    <!-- Description -->
+    <p class="text-gray-600 text-base">Each plan is Self-paced with lifetime access</p>
+  </div>
+</section>
+
+
+
+<section id="FAQ" class="faq_section py-16 bg-gray-50">
+  <div class="container max-w-3xl mx-auto px-6 bg-white p-8 rounded-lg shadow-md">
+    
+    <!-- Heading -->
+    <h2 class="text-3xl font-bold text-blue-600 mb-8 text-center">Frequently Asked Questions</h2>
+
+    <!-- FAQ Item 1 -->
+    <div class="mb-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Q: Is this course suitable for complete beginners?</h3>
+      <p class="text-gray-700">A: Absolutely! The course starts from the basics and gradually builds up.</p>
+    </div>
+
+    <!-- FAQ Item 2 -->
+    <div class="mb-6">
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Q: Do I get a certificate?</h3>
+      <p class="text-gray-700">A: Yes, upon completing the pro plan and final project, you will get a certificate.</p>
+    </div>
+
+    <!-- FAQ Item 3 -->
+    <div>
+      <h3 class="text-xl font-semibold text-gray-900 mb-2">Q: Can I learn at my own pace?</h3>
+      <p class="text-gray-700">A: Yes, all materials are available online 24/7 for you to learn whenever you want.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="LoginSignupSection" class="login_signup_section py-16 bg-gray-50">
+  <div class="container mx-auto px-6 flex flex-wrap justify-center gap-10">
+
+    <!-- Login Box -->
+    <div class="bg-white bg-opacity-90 p-8 rounded-lg shadow-md w-full max-w-md">
+      <h2 class="text-2xl font-bold text-blue-600 mb-6 text-center">Sign in to DevLoom</h2>
+
+      <form class="space-y-4">
+        <div>
+          <label for="loginEmail" class="block text-gray-700 font-medium mb-1">Email</label>
+          <input type="email" id="loginEmail" placeholder="Email" required
+            class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        </div>
+
+        <div>
+          <label for="loginPassword" class="block text-gray-700 font-medium mb-1">Password</label>
+          <input type="password" id="loginPassword" placeholder="Password" required
+            class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        </div>
+
+        <button type="submit"
+          class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition duration-300">Login</button>
+      </form>
+
+      <a href="#" class="block mt-4 text-sm text-blue-500 hover:underline text-center">Forgot password?</a>
+
+      <p class="mt-6 text-center text-sm text-gray-700">
+        Don't have an account? <a href="#SignupSection" class="text-blue-500 hover:underline">Sign Up</a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
