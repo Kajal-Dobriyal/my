@@ -9,8 +9,7 @@ Key sections include:
 - 💻 Step-by-step learning roadmap
 - 💡 FAQ and Login functionality
 
-🔗 Live Demo: [View Site](https://kajal-dobriyal.github.io/DevLoom/)
-
+🔗 Live Demo: https://kajal-dobriyal.github.io/myProject/
 
 
 
